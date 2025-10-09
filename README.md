@@ -42,10 +42,10 @@ By building a machine learning model, this project aims to predict call volume p
 
 
 ## Data Sources
-EMS Dispatch Data (Jan 1 – Apr 15, 2025)
+EMS Dispatch Data (Jun 1, 2024 – Apr 15, 2025)
 NYC Open Data API – EMS Incident Dispatch
 url = "https://data.cityofnewyork.us/resource/76xm-jjuj.json"
-⮑ 500,000 rows retrieved via API, aggregated to daily call counts.
+⮑ 1308614 rows retrieved via API, aggregated to daily call counts.
 Weather Data
 Daily NYC weather observations (temperature, precipitation, snowfall, etc.)
 Holiday Calendar
