@@ -65,6 +65,11 @@ The project evaluated performance at **two levels**:
 
 The model demonstrates strong generalization performance with low forecast error (RMSE ≈ 48, MAE ≈ 37). 
 
+## 📌 Visual Highlights
+
+### Actual vs Predicted - Citywide
+![Actual vs Predicted - Citywide Test](assets/actual-vs-predicted-citywide-test.png)
+
 ---
 
 ### 2️⃣ Borough-wise Models ✅
@@ -85,8 +90,11 @@ The model demonstrates strong generalization performance with low forecast error
 - Queens: Forecasts capture broad trends, but sparse or irregular demand makes short-term predictions less accurate.
 - Staten Island: Lower call volume allows the model to predict trends more consistently, though some fluctuations remain.
 
-📌 Visual Highlights:  
-(Insert these plots from `assets/` folder)
+## 📌 Visual Highlights
+
+### Actual vs Predicted - Borough wise
+![Actual vs Predicted - Citywide Test](assets/actual-vs-predicted-citywide-test.png)
+
 
 ## 📁 Repository Structure
 ---
