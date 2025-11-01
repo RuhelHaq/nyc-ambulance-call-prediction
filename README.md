@@ -110,18 +110,18 @@ Citywide XGBoost achieved strong performance (RMSE 47.84, R² 0.98, MAPE 5.09%),
 ## 📁 Repository Structure
 ---
 ```bash
-├── README.md                     # Project overview and documentation
+├── README.md                        # Project overview and documentation
 ├── data/
-│   ├── daily_ambulance_calls.csv       # Aggregated EMS data (daily borough-level call volume)
-│   ├── nyc_boroughs_weather.csv          # Daily weather data for NYC
-├── 1_data_wrangling.ipynb        # Load & clean EMS data, add weather & holiday features
-├── 2_eda.ipynb                   # Visual exploration of trends, patterns, borough-level insights
-├── 3_preprocessing.ipynb         # Final feature selection, encoding, normalization, train/test split
-├── 4_modeling.ipynb              # Training & evaluating models (Linear Regression, Prophet, XGBoost)
-├── 5_report.md                   # Written summary of methodology, results, and key findings
-├── 6_presentation_slides.pdf     # Presentation slides for stakeholders
-├── assets/                       # Images or visualizations used in report/README
-└── requirements.txt              # Python package dependencies
+│   ├── daily_ambulance_calls.csv    # Aggregated EMS data (daily borough-level call volume)
+│   ├── nyc_boroughs_weather.csv     # Daily weather data for NYC
+├── 1_data_wrangling.ipynb           # Load & clean EMS data, add weather & holiday features
+├── 2_eda.ipynb                      # Visual exploration of trends, patterns, borough-level insights
+├── 3_preprocessing.ipynb            # Final feature selection, encoding, normalization, train/test split
+├── 4_modeling.ipynb                 # Training & evaluating models (Linear Regression, XGBoost)
+├── 5_modeling_borough_wise.ipnyb    # Training & evaluating models borough wise (XGBoost, Prophet
+├── 6_Report.pdf                     # Technical report for stakeholders
+├── assets/                          # Images or visualizations used in report/README
+└── requirements.txt                 # Python package dependencies
 
 
 ## Data Sources
