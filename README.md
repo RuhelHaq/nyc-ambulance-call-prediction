@@ -1,13 +1,12 @@
 
 # NYC Ambulance Call Volume Prediction
+New York City operates one of the busiest emergency medical services in the world, handling hundreds of thousands of ambulances calls annually across its five boroughs: Bronx, Brooklyn, Manhattan, Queens, and Staten Island. The NYC 911 ambulance service provides rapid medical response for emergencies ranging from injuries and cardiac events to critical illnesses, often operating under highly variable demand conditions.
 
-Predicting daily ambulance call demand across New York City's boroughs using EMS dispatch data, weather conditions, and holiday indicators.
 
 ---
 
 ##  Project Objective
-
-Forecast **daily ambulance call volume** for each NYC borough to improve:
+Predict **daily ambulance call demand** across New York City's boroughs using EMS dispatch data, weather conditions, and holiday indicators to improve:
 
 - 🚑 EMS resource allocation
 - 👨‍⚕️ Staffing during high-demand periods
@@ -93,9 +92,21 @@ The model demonstrates strong generalization performance with low forecast error
 ## 📌 Visual Highlights
 
 ### Actual vs Predicted - Borough wise
-![Actual vs Predicted - Citywide Test](assets/actual-vs-predicted-citywide-test.png)
+![Actual vs Predicted - Citywide Test](assets/actual-vs-predicted-borough-wise.png)
+---
+## Conclusion
+This project developed predictive models for NYC ambulance demand at citywide and borough levels.
+Citywide XGBoost achieved strong performance (RMSE 47.84, R² 0.98, MAPE 5.09%), outperforming linear regression.
+- Borough-level XGBoost captured local trends and outperformed Prophet, with Manhattan showing higher errors due to data variability.
+- SHAP analysis highlighted nonlinear feature interactions, e.g., temperature influencing certain boroughs despite low correlation in EDA.
+---
+## 🔧 Future Improvements
+- Add external features: public events, demographics, traffic, population density.
+- Explore advanced temporal models: LSTM, Temporal Fusion Transformers for complex sequential patterns.
+- Use finer-grained data: neighborhood-level or hourly call data for better local accuracy.
+- Build an interactive dashboard for real-time monitoring of forecasts and feature contributions.
 
-
+---
 ## 📁 Repository Structure
 ---
 ```bash
