@@ -109,6 +109,7 @@ Citywide XGBoost achieved strong performance (RMSE 47.84, R² 0.98, MAPE 5.09%),
 ---
 ## 📁 Repository Structure
 ---
+```bash
 ├── README.md                        # Project overview and documentation
 ├── data/
 │   ├── daily_ambulance_calls.csv    # Aggregated EMS data (daily borough-level call volume)
