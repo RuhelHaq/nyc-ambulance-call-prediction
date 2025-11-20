@@ -1,4 +1,5 @@
 
+![](assets/Slide1.jpeg)
 # NYC Ambulance Call Volume Prediction
 New York City operates one of the busiest emergency medical services in the world, handling hundreds of thousands of ambulances calls annually across its five boroughs: Bronx, Brooklyn, Manhattan, Queens, and Staten Island. The NYC 911 ambulance service provides rapid medical response for emergencies ranging from injuries and cardiac events to critical illnesses, often operating under highly variable demand conditions.
 
